@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 
-function ScoreForm() {
-  const handleSubmit = (event) => {
+const ScoreForm = () => {
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     alert("You have submitted the form.");
   };
@@ -20,6 +20,6 @@ function ScoreForm() {
       </form>
     </div>
   );
-}
+};
 
 export default ScoreForm;
