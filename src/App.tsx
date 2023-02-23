@@ -1,13 +1,10 @@
-import "./App.css";
-import ScoreForm from "./components/ScoreForm/ScoreForm";
-
-const App = () => {
+import LandingPage from "./components/LandingPage/LandingPage";
+function App() {
   return (
     <div className="App">
-      <h1>FED Assessment User View Dashboard</h1>
-      <ScoreForm />
+      <LandingPage />
     </div>
   );
-};
+}
 
 export default App;

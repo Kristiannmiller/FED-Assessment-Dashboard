@@ -1,0 +1,54 @@
+.landingPage {
+  background: url("../../assets/images/RP-logo-bg.png") no-repeat center center
+    fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+  }
+}
+
+.email {
+  background: #d9d9d9;
+  border-radius: 5px;
+  padding: 20px 24px;
+  .email--label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .email--input {
+    background: #ffffff;
+    border-bottom: 1px solid #212121;
+    border-radius: 1px;
+    height: 23px;
+    display: block;
+    margin-bottom: 25px;
+  }
+  .email--btn {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #ffffff;
+    padding: 9px 10px;
+    text-transform: uppercase;
+    background: #212121;
+    border-radius: 4px;
+  }
+}
