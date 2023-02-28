@@ -6,27 +6,33 @@
   width: 100vw;
   h1 {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 27px;
+    font-size: 60px;
+    line-height: 68px;
     color: #000000;
   }
 
   h3 {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 39px;
+    line-height: 44px;
     color: #000000;
   }
+}
+
+.landingPage--content {
+  width: 31vw;
+  margin-left: 10vw;
+  margin-top: 100px;
 }
 
 .email {
   background: #d9d9d9;
   border-radius: 5px;
-  padding: 20px 24px;
+  padding: 53px 57px;
   .email--label {
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 20px;
+    line-height: 23px;
     color: #000000;
     text-transform: uppercase;
     display: block;
@@ -36,19 +42,26 @@
     background: #ffffff;
     border-bottom: 1px solid #212121;
     border-radius: 1px;
-    height: 23px;
+    height: 54px;
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
+    width: 100%;
   }
   .email--btn {
     font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 25px;
+    line-height: 29px;
     text-align: center;
     color: #ffffff;
-    padding: 9px 10px;
+    padding: 20px 30px;
     text-transform: uppercase;
     background: #212121;
     border-radius: 4px;
   }
+}
+
+.logo img {
+  width: auto;
+  height: 74px;
+  margin: 38px 0 0 42px;
 }
