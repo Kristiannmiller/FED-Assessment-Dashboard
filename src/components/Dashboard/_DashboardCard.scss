@@ -20,6 +20,9 @@
             font-family: $font-secondary;
             font-size: 2em;
             font-weight: 700;
+            @media screen and (max-width: $screen-lg) {
+                font-size: 1.5em;
+            }
         }
     }
     .cardBody {
@@ -48,5 +51,14 @@
     }
     &:hover {
         box-shadow: 0 0 10px 5px rgba(0, 174, 207, 0.7);
+    }
+    @media screen and (max-width: $screen-md) {
+        .cardBody {
+            height: auto;
+            padding: 50px 0;
+        }
+    }
+    @media screen and (max-width: $screen-sm) {
+        width: 100%;
     }
 }

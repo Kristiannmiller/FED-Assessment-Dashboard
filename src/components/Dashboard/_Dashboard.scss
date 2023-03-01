@@ -4,5 +4,8 @@
     flex-wrap: wrap;
     padding: 25px;
     gap: 20px;
-    height: 94vh;
+    height: 100vh;
+    @media screen and (max-width: $screen-md) {
+        height: auto;
+    }
 }
