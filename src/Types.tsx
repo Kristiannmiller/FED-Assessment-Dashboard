@@ -5,3 +5,14 @@ export type CardCategory = {
   totalScore: number;
 };
 
+export type NavCategory = {
+  id: number;
+  title: string;
+  subCategories: string[];
+};
+
+export type AppContextType = {
+  isMobile: boolean;
+  setIsMobile: (isMobile: boolean) => void;
+};
+
