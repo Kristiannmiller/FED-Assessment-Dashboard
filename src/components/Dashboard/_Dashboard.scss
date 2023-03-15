@@ -5,7 +5,8 @@
     padding: 25px;
     gap: 20px;
     height: 100vh;
+    width: calc(100vw - 350px);
     @media screen and (max-width: $screen-md) {
-        height: auto;
+        width: 100vw;
     }
 }
